@@ -15,6 +15,7 @@ def part_1():
             cur_calorie_total += int(line)
     return max(cur_max_calorie_total, cur_calorie_total)
 
+# Return the total number of calories the top 3 elves have.
 def part_2():
     lines = helper.read_file_as_list_of_strings(input_file)
     cur_calorie_total = 0
